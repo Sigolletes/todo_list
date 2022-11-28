@@ -1,1 +1,6 @@
-// calls the modules
+import { projects, todos } from './logic';
+
+// call the modules
+
+
+console.log(projects);
