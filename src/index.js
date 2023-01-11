@@ -1,6 +1,7 @@
 import { projects, todos } from './logic';
+import display from './dom.js';
 
 // call the modules
 
 
-console.log(projects);
+display.renderProjects();

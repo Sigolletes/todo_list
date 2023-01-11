@@ -5,6 +5,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -13,8 +14,6 @@
 	--color3: rgb(26, 125, 122);
 	--color4: rgb(229, 211, 190);
 	--color5: rgb(74, 54, 31);
-
-	font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -51,11 +50,16 @@ body {
 }
 
 button {
-  font-family: 'Quicksand', sans-serif;
   background-color: var(--color1);
   color: var(--color5);
   border: none;
   border-radius: 5px;
   padding: 5px;
   font-size: 15px;
+}
+
+/* RENDERED FROM DOM.JS */
+
+.project {
+  
 }

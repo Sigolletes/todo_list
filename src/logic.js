@@ -5,7 +5,10 @@
 
   // project creation for store related todos and a global one
 
+import display from './dom.js';
+
 const projects = function() {
+
   const projectsList = { 
     allTodos: [],
   };
@@ -21,7 +24,7 @@ const projects = function() {
   const deleteProject = function(name) {
     if (name === 'allTodos') {
       console.log('You cannot delete the global todo list');
-    } else if (!Object.hasOwn(projectsList, name)) {
+    } else if (Object.hasOwn(projectsList, name)) {
       delete projectsList[name];
     } else {
       console.log("That project doesn't exist");
